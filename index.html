@@ -1,152 +1,647 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Jonathan's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<li class="navbar-item"></li>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jonathan's Personal Portfolio</title>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/mylogo.png"
+      type="image/x-icon"
+    />
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Jonathan's Portfolio<br />
-						</h1>
-						<p>MSc Finance Graduate skilled in Python, SQL and Tableau <a href="https://github.com/Jonho823">@Jonathan</a></p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Jonathan</a>
-					</header>
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-							<li><a href="aboutme.html">About Me</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/jonathanho0823/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/Jonho823" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+  <body>
+    <!--
+    - #MAIN
+  -->
 
-				<!-- Main -->
-					<div id="main">
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">Dissertation: Pairs Trading Strategies<br />
-									</a></h2>
-									<p>This is my dissertation source code for pairs trading strategies, exploring the distance, cointegration, and copula methods on FTSE 100 data from Jan 2013 to Jun 2023. The execution involves identifying co-moving pairs, initiating positions on spread divergence, and closing positions based on predetermined exit criteria.</p>
-								</header>
-								<a href="https://github.com/Jonho823/Dissertation-Pairs-Trading-Strategies" class="image main"><img src="images/pairs_trading_2.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/Jonho823/Dissertation-Pairs-Trading-Strategies" class="button large">View Project</a></li>
-								</ul>
-							</article>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="./assets/images/mypic.png" alt="Jonathan Ho" width="80" />
+          </figure>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="#">Portfolio Optimization Model<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Jonho823/Portfolio-Optimization-Model" class="image fit"><img src="images/port_opt.png" alt="" /></a>
-									<p>This project delves into the principles of portfolio optimization, drawing inspiration from the comprehensive content of the course presented by EDHEC Business School. By applying the techniques learned, I would like to showcase a nuanced understanding of portfolio management strategies and their practical applications in real-world investment scenarios.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Jonho823/Portfolio-Optimization-Model" class="button large">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="#">US ETF Performance Analysis<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Jonho823/US-ETF-Performance-Analysis-with-SQL-and-Tableau" class="image fit"><img src="images/etfs.jpg" alt="" /></a>
-									<p>Exchange-Traded Funds (ETFs), are passively managed investment funds traded on stock exchanges, offering diversification and flexibility to investors. Analyzing the ETF dataset provides valuable insights into market trends, portfolio compositions, and historical performance for informed investment decision-making.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Jonho823/US-ETF-Performance-Analysis-with-SQL-and-Tableau" class="button large">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="#">Volatility Forecasting with GARCH Model<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Jonho823/Volatility-Forecasting-with-GARCH-Model" class="image fit"><img src="images/volatility_rollercoaster.png" alt="" /></a>
-									<p>This project explores the application of GARCH Model in predicting volatility, leveraging insights gained from the rigorous content provided by WorldQuant University. With a focus on time series analysis, the objective is to demonstrate proficiency in employing GARCH Model for forecasting asset volatility.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Jonho823/Volatility-Forecasting-with-GARCH-Model" class="button large">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="#">Asset-Liability Management<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Jonho823/Asset-Liability-Management" class="image fit"><img src="images/alm.jpg" alt="" /></a>
-									<p>This project delves into the principles of Asset Liability Management, drawing inspiration from the comprehensive content of the course provided by EDHEC Business School. Through the application of techniques learned, the aim is to demonstrate a nuanced understanding of dynamic risk budgeting and its practical applications in real-world investment contexts.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Jonho823/Asset-Liability-Management" class="button large">View Project</a></li>
-									</ul>
-								</article>
-							</section>
+          <div class="info-content">
+            <h1 class="name" title="Jonathan Ho">Jonathan Ho</h1>
 
-						</div>
+            <p class="title">MSc Finance Graduate</p>
+          </div>
 
-					<!-- Footer -->
-						<footer id="footer">
-							<section class="split contact">
-								<section class="alt">
-									<h3>Location</h3>
-									<p>Reading, Berkshire, United Kingdom<br />
-									</p>
-								</section>
-								<section>
-									<h3>Email</h3>
-									<p><a href="#">jonho0823@gmail.com</a></p>
-								</section>
-								<section>
-									<h3>Social</h3>
-									<ul class="icons alt">
-										<li><a href="https://www.linkedin.com/in/jonathanho0823/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-										<li><a href="https://github.com/Jonho823" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-									</ul>
-								</section>
-							</section>
-						</footer>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Jonathan's Portfolio</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
 
-			</div>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
 
-	</body>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:jonho0823@gmail.com" class="contact-link"
+                  >jonho0823@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Reading, Berkshire, UK</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/jonathanho0823/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/Jonho823" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm a dedicated professional with a passion for investment
+              management, recently completing a master’s degree in finance. My
+              background includes internships at an investment firm and valuable
+              experience at EY. Proficient in MS Excel, Python for data
+              analysis, SQL for database querying, and Tableau for data
+              visualization, I excel at turning complex data into actionable
+              insights.
+            </p>
+
+            <p>
+              Committed to continuous learning and development, I constantly
+              acquire new tools and industry knowledge to enhance my analytical
+              capabilities. My goal is to leverage my skills and knowledge to
+              drive investment success and support informed decision-making.
+              Collaboration and continuous improvement are at the core of my
+              professional journey.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-investmgt.png
+                "
+                    alt="investment management icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Investment Management</h4>
+
+                  <p class="service-item-text">
+                    The optimization of asset allocation to meet investment
+                    goals.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-timseries.png"
+                    alt="time series icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Time Series Analysis</h4>
+
+                  <p class="service-item-text">
+                    Identification of patterns and trends in time series data.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-backtesting.png"
+                    alt="backtesting icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Backtesting</h4>
+
+                  <p class="service-item-text">
+                    Compare and evaluate trading strategies with performance
+                    measure.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-data.png"
+                    alt="data analysis icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                  <p class="service-item-text">
+                    Data cleaning and perform analysis with visualization.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">King's College London</h4>
+
+                <span>2022 — 2023</span>
+
+                <p class="timeline-text">MSc Finance - Asset Pricing</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  The Hang Seng University of Hong Kong
+                </h4>
+
+                <span>2013 — 2017</span>
+
+                <p class="timeline-text">
+                  Bachelor of Business Administration, Major: Accounting
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Reseach Intern, Lingotto II LLP
+                </h4>
+
+                <span>2023 — 2023</span>
+
+                <p class="timeline-text">
+                  Conducted in-depth research on private market and public
+                  market research for the team.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Senior Associate, Ernst & Young
+                </h4>
+
+                <span>2019 — 2021</span>
+
+                <p class="timeline-text">
+                  Performed audits of financial statements for asset management
+                  firms, reviewed valuation models for different types of
+                  financial instruments.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Auditor, Crowe (HK) CPA Limited
+                </h4>
+
+                <span>2010 — 2013</span>
+
+                <p class="timeline-text">
+                  Focused on audit engagements from clients in both securities
+                  and asset management industries.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Investment Analysis</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Time Series Analysis</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Risk Management</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Data Analysis</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="blog" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a
+                  href="https://github.com/Jonho823/Dissertation-Pairs-Trading-Strategies"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-pairs_trading.jpg"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Trading</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2023-09-15">Sep 15, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Dissertation: Pairs Trading Strategies
+                    </h3>
+
+                    <p class="blog-text">
+                      This is my dissertation source code for pairs trading
+                      strategies, exploring the distance, cointegration, and
+                      copula methods on FTSE 100 data from Jan 2013 to Jun 2023.
+                      The execution involves identifying co-moving pairs,
+                      initiating positions on spread divergence, and closing
+                      positions based on predetermined exit criteria.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://github.com/Jonho823/Portfolio-Optimization-Model"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-port_opt.png"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Investment Management</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-05-09">May 9, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Portfolio Optimization Model
+                    </h3>
+
+                    <p class="blog-text">
+                      This project delves into the principles of portfolio
+                      optimization, drawing inspiration from the comprehensive
+                      content of the course presented by EDHEC Business School.
+                      By applying the techniques learned, I would like to
+                      showcase a nuanced understanding of portfolio management
+                      strategies and their practical applications in real-world
+                      investment scenarios.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://github.com/Jonho823/Volatility-Forecasting-with-GARCH-Model"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-volatility_rollercoaster.png"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Risk Management</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-05-14">May 14, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Volatility Forecasting with GARCH Model
+                    </h3>
+
+                    <p class="blog-text">
+                      This project explores the application of GARCH Model in
+                      predicting volatility, leveraging insights gained from the
+                      rigorous content provided by WorldQuant University. With a
+                      focus on time series analysis, the objective is to
+                      demonstrate proficiency in employing GARCH Model for
+                      forecasting asset volatility.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://github.com/Jonho823/Asset-Liability-Management"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-alm.jpg"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Investment Management</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-05-30">May 30, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Asset-Liability Management
+                    </h3>
+
+                    <p class="blog-text">
+                      This project delves into the principles of Asset Liability
+                      Management, drawing inspiration from the comprehensive
+                      content of the course provided by EDHEC Business School.
+                      Through the application of techniques learned, the aim is
+                      to demonstrate a nuanced understanding of dynamic risk
+                      budgeting and its practical applications in real-world
+                      investment contexts.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://github.com/Jonho823/US-ETF-Performance-Analysis-with-SQL-and-Tableau"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-etfs.jpg"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Data Analysis</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-04-23">Apr 23, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      US ETF Performance Analysis
+                    </h3>
+
+                    <p class="blog-text">
+                      Exchange-Traded Funds (ETFs), are passively managed
+                      investment funds traded on stock exchanges, offering
+                      diversification and flexibility to investors. Analyzing
+                      the ETF dataset provides valuable insights into market
+                      trends, portfolio compositions, and historical performance
+                      for informed investment decision-making.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
